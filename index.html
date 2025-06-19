@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+      <h1>My Portfolio</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#Aboutme">About me</a></li>
+          <li><a href="#myprojects">My projects</a></li>
+          <li><a href="#myskills">My Skills</a></li>
+          <li><a href="#contactme">Contact me</a></li>
+        </ul>
+      </nav>
+      <link rel="stylesheet" href="style.css">
+    </header>
+
+  <div class="intro">
+    <div class="introtext">
+    <h2>Hi,I'm <strong>Atharva Borade</strong></h2>
+    <p>Welcome to my portfolio website.</p>
+    </div>
+    <img src="./images/Atharva.png" alt="Atharva Smiling"  width="300px" name="Atharva" class="introimg">
+  </div>
+
+<section id="Aboutme" class="About_me">
+ <div class="card">
+  <div class="About_me_text">
+    <h3><strong>About me</strong></h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate inventore obcaecati cupiditate dolorem nobis ducimus molestias tempora! Impedit ratione eveniet quaerat natus praesentium, dolor placeat quam cupiditate iure fugit optio consectetur, eaque at necessitatibus architecto suscipit. Vero, modi. Nam laudantium totam corrupti ad eligendi, error tempore sint qui sequi veritatis.</p>
+  </div>
+    <img src="./images/Atharva.webp" alt="Profile picture" name="Atharva" width="300px">
+  </div>
+</section>
+
+  <div id="myskills" class="my_skills">
+
+    <div>
+
+      <h4><strong>My Skills</strong></h4>
+       
+    
+    <ul>
+      <li>Public Speaking <progress max="100" value="80">80%</progress></li>
+      <li>Front end Developing <progress max="100" value="50">50%</progress></li>
+      <li>Python <progress max="100" value="30">30%</progress></li>
+      <li>Content Creation <progress max="100" value="70">70%</progress></li>
+    </ul>
+
+  </div>
+  </div>
+
+  <div id="myprojects" class="my_projects">
+
+    <h4><strong>My Projects</strong></h4>
+    <div class="my_projects_row">
+   
+      <div class="projectcard">
+        <img src="./images/Calculator.png" alt="calculatr" class="project-img">
+        <h5>Calculator</h5>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="projectcard"> 
+        <img src="./images/no_an.jpg" alt="number analyzer"  class="project-img">
+        <h5>Number Analyzer</h5>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="projectcard">
+        <img src="./images/Portloflio.png" alt="portfolio website" class="project-img">
+        <h5>Portfolio Website</h5>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="projectcard">
+        <img src="./images/pub.jpg" alt="to do app " class="project-img">
+        <h5>TO-DO app</h5>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+    
+    </div>
+  </div>
+  <div id="contactme" class="contact_me">
+
+    <h6>Contact me</h6>
+    <form action="" method="get" class="form-contact">
+      <div class="form-contact">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required placeholder="Enter your name" />
+      </div>
+      <div class="form-contact">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required placeholder="Enter your email"/>
+      </div>
+      <div class="form-contact-button">
+        <button type="submit" value="Sent!" />Submit</button>
+      </div>
+    </form>
+    
+  </div>
+</body>
+</html>

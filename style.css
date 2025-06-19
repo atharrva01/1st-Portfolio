@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin: 10px;
+    padding: 10px;
+    background-color:#121212;
+    color: white;
+}
+.header{
+    background-color: #121212;
+    color: #ffffff;
+    padding: 5px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    margin: 10px;
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    list-style: none;
+   
+    margin-left: 20px;
+    font-weight: bold;
+}
+.header a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+}
+.header a:hover{
+    color: darkorange;
+    font-size: 19.5px;
+}
+.header h1{
+    color: darkorange;
+    font-size: 50px;
+}
+.intro{
+    width:100vw;
+    height:100vh;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introtext{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.introimg{
+    width: min-content;
+    height:100vh;
+}
+.intro strong{
+    color: darkorange;
+    font-size:39px;
+}
+.About_me{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #4a4848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 30px;
+    max-width: 70%;
+}
+.About_me_text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:2px 2px 5px #121212
+}
+.About_me_text h3{
+    color: darkorange;
+    font-size:45px;
+}
+.About_me_text p{
+    margin-top: 10px;
+    font-size:20px;
+}
+.my_skills{
+    background-color: #121212;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.my_skills h4{
+    color: darkorange;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my_skills ul{
+    list-style: none;
+    margin: 20px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.my_skills li{
+    margin: 10px;
+    font-size: 30px;
+}
+.my_projects{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projectcard{
+    background-color: #4a4848;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    height:300px;
+    margin: 10px;
+    padding: 8px;
+
+}
+.my_projects_row{
+    margin-top: 20px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: row;
+    max-width:90%;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+}
+.my_projects h4{
+    color: darkorange;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my_projects p{
+    font-size:20px;
+    margin-top: 10px;
+    text-shadow:2px 2px 5px #121212;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my_projects h5{
+    color: darkorange;
+    font-size:30px;
+    margin-top: 20px;
+    text-shadow:2px 2px 5px #121212;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project-img{
+    width:95%;
+    height:50%;
+
+}
+.contact_me{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact_me h6{
+    color: darkorange;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+
+    margin: 20px 10px 10px 10px;
+    padding: 7px;
+    border-radius: 8px;
+
+}
+.form-contact-button{
+display: flex;
+justify-content: center;
+margin: 17px;
+}
+button{
+    background-color: rgb(10, 52, 149);
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    border-radius: 8px;
+}
